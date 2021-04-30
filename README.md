@@ -29,13 +29,13 @@ I am a proactive, confident and communicatively strong person always looking ahe
 
 
 <h3>📩 Get in touch:</h3>
-LinkedId: https://www.linkedin.com/in/jolanta-galczynska-62554a16b/
+<h4>LinkedId:</h4> https://www.linkedin.com/in/jolanta-galczynska-62554a16b/
 Facebook: https://www.facebook.com/jolanta.galczynska/
 Email: jolanta.galczynska@gmail.com
 
 
 
-💎 Goals for 2021: 
+<h3>💎 Goals for 2021: </h3>
 - Finding a permanent job as a develoepr 
 - Improving my Mern stack skills
 - Putting my first, small React Native app outside
