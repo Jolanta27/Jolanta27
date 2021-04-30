@@ -8,7 +8,7 @@ I'm a junior frontend developer with passion for learning new things, based in O
 I strive while utilising both the logical and creative part of the brain. 
 I am a proactive, confident and communicatively strong person always looking ahead in the future. 🚀
 
-What have I learned so far?
+<h2>What have I learned so far?</h2>
 
 🔸 I know HTML well
 
@@ -28,7 +28,7 @@ What have I learned so far?
 
 
 
-📩 Get in touch:
+<h3>📩 Get in touch:</h3>
 LinkedId: https://www.linkedin.com/in/jolanta-galczynska-62554a16b/
 Facebook: https://www.facebook.com/jolanta.galczynska/
 Email: jolanta.galczynska@gmail.com
