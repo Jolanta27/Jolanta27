@@ -6,7 +6,7 @@
 “Don’t go through life, grow through life.” – Eric Butterworth
 
 
-<h1>Hi! I'm Jolanta  &#128075;/h1>
+<h1>Hi! I'm Jolanta  &#128075;</h1>
 
 I'm a junior frontend developer with passion for learning new things, based in Oslo. 
 I strive while utilising both the logical and creative part of the brain. 
