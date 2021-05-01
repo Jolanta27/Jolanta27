@@ -33,8 +33,8 @@ I am a proactive, confident and communicatively strong person always looking ahe
 
 
 <h3>📩 Get in touch:</h3>
-<p>LinkedId:</p> https://www.linkedin.com/in/jolanta-galczynska-62554a16b/ <br>
-<p>Facebook:</p> https://www.facebook.com/jolanta.galczynska/ <br>
+<p>LinkedId:</p> https://www.linkedin.com/in/jolanta-galczynska-62554a16b/ 
+<p>Facebook:</p> https://www.facebook.com/jolanta.galczynska/ 
 <p>Email:</p> jolanta.galczynska@gmail.com
 
 
