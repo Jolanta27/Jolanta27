@@ -14,7 +14,7 @@ I am a proactive, confident and communicatively strong person always looking ahe
 
 <h2>What have I learned so far?</h2>
 
-🔸 I know HTML well
+:small_orange_diamond: I know HTML well
 
 🔸 I can style with CSS
 
