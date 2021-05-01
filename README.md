@@ -16,19 +16,19 @@ I am a proactive, confident and communicatively strong person always looking ahe
 
 :small_orange_diamond: I know HTML well
 
-🔸 I can style with CSS
+:small_orange_diamond: I can style with CSS
 
-🔸 I'm developing my JS and REACT skills every day :)
+:small_orange_diamond: I'm developing my JS and REACT skills every day :)
 
-🔸 I can use API
+:small_orange_diamond: I can use API
 
-🔸 I made some simple websites with BOOTSTRAP
+:small_orange_diamond: I made some simple websites with BOOTSTRAP
 
-🔸 I know the websites must be responsible and know rule "mobile first"
+:small_orange_diamond: I know the websites must be responsible and know rule "mobile first"
 
-🔸 I use NPM and GIT
+:small_orange_diamond: I use NPM and GIT
 
-🔸 I started learning REDUX
+:small_orange_diamond: I started learning REDUX
 
 
 
