@@ -8,10 +8,9 @@
 
 <h1>Hi! I'm Jolanta  &#128075;</h1>
 
-I'm a junior frontend developer with passion for learning new things, based in Oslo. 
+<p>I'm a junior frontend developer with passion for learning new things, based in Oslo. 
 I strive while utilising both the logical and creative part of the brain. 
-I am a proactive, confident and communicatively strong person always looking ahead in the future. 🚀
-
+I am a proactive, confident and communicatively strong person always looking ahead in the future. &#128640;</p>
 <h2>What have I learned so far?</h2>
 
 :small_orange_diamond: I know HTML well
@@ -32,7 +31,7 @@ I am a proactive, confident and communicatively strong person always looking ahe
 
 
 
-<h3>📩 Get in touch:</h3>
+<h3>&#128233Get in touch:</h3>
 <p>LinkedId: https://www.linkedin.com/in/jolanta-galczynska-62554a16b/</p>
 <p>Facebook: https://www.facebook.com/jolanta.galczynska/</p>
 <p>Email: jolanta.galczynska@gmail.com</p>
