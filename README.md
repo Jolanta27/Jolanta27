@@ -31,21 +31,21 @@ I am a proactive, confident and communicatively strong person always looking ahe
 
 
 
-<h3>&#128233Get in touch:</h3>
-<p>LinkedId: https://www.linkedin.com/in/jolanta-galczynska-62554a16b/</p>
+<h3>&#128233;Get in touch:</h3>
+<p>LinkedIn: https://www.linkedin.com/in/jolanta-galczynska-62554a16b/"</p>
 <p>Facebook: https://www.facebook.com/jolanta.galczynska/</p>
 <p>Email: jolanta.galczynska@gmail.com</p>
 
 
-<h3>💎 Goals for 2021: </h3>
+<h3>&#128160;Goals for 2021: </h3>
 - Finding a permanent job as a develoepr<br>
 - Improving my Mern stack skills<br>
 - Putting my first, small React Native app outside<br>
-- Visiting my wonderful home country straightaway it's possible to travel 🙃<br>
+- Visiting my wonderful home country straightaway it's possible to travel &#128579;
 
 
 
 
-<h3>Welcome to my Gihub profile! 😃<h3>
+<h3>Welcome to my Gihub profile! &#128512;<h3>
 
 
