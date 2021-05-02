@@ -3,7 +3,7 @@
 
 
 
-<p><q>Don’t go through life, grow through life.</q> – Eric Butterworth</p>
+>><q>Don’t go through life, grow through life.</q> – Eric Butterworth
 
 
 <h1>Hi! I'm Jolanta  &#128075;</h1>
