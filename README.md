@@ -41,7 +41,6 @@ I am a proactive, confident and communicatively strong person always looking ahe
 <p>- Finding a permanent job as a developer</p>
 <p>- Improving my Mern stack skills</p>
 <p>- Putting my first, small React Native app outside</p>
-<p>- Visiting my wonderful home country straightaway it's possible to travel &#128579;</p>
 
 
 
