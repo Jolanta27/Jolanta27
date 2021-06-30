@@ -21,8 +21,6 @@ I am a proactive, confident and communicatively strong person always looking ahe
 
 <p>:small_orange_diamond: I can use API</p>
 
-<p>:small_orange_diamond: I made some simple websites with BOOTSTRAP</p>
-
 <p>:small_orange_diamond: I know the websites must be responsible and know rule "mobile first"</p>
 
 <p>:small_orange_diamond: I use NPM and GIT</p>
