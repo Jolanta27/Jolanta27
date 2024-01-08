@@ -35,11 +35,6 @@ I am a proactive, confident and communicatively strong person always looking ahe
 <p>Email: jolanta.galczynska@gmail.com</p>
 
 
-<h3>&#128160; Goals for 2021: </h3>
-<p>- Finding a permanent job as a developer</p>
-<p>- Improving my Mern stack skills</p>
-<p>- Putting my first, small React Native app outside</p>
-
 
 
 
