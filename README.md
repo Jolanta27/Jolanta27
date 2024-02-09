@@ -8,7 +8,7 @@
 
 <h1>Hi! I'm Jolanta  &#128075;</h1>
 
-<p>I'm a junior frontend developer with passion for learning new things, based in Oslo. 
+<p>I'm a frontend developer with passion for learning new things, based in Oslo. 
 I strive while utilising both the logical and creative part of the brain. 
 I am a proactive, confident and communicatively strong person always looking ahead in the future. &#128640;</p>
 
