@@ -18,7 +18,7 @@ I am a proactive, confident and communicatively strong person always looking ahe
 <p>Facebook: https://www.facebook.com/jolanta.galczynska/</p>
 <p>Email: jolanta.galczynska@gmail.com</p>
 
-![Jolanta27](https://github-readme-stats.vercel.app/api?username=Jolanta27&show_icons=true&theme=radical)
+![Jolanta27](https://github-readme-stats.vercel.app/api?username=Jolanta27&show_icons=true&theme=radical) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jolanta27&layout=compact)](https://github.com/Jolanta27/github-readme-stats)
 
 <h3>Welcome to my Gihub profile! &#128512;<h3>
   
