@@ -35,6 +35,10 @@ I am a proactive, confident and communicatively strong person always looking ahe
 ![TypeScript](https://img.shields.io/badge/-TypeScript-black?style=flat-square&logo=typescript)
 ![Axios](https://img.shields.io/badge/-Axios-black?style=flat-square&logo=axios)
 ![Figma](https://img.shields.io/badge/-Figma-black?style=flat-square&logo=figma)
+![Styled Components](https://img.shields.io/badge/-Styled%20Components-black?style=flat-square&logo=styled-components)
+![Material UI](https://img.shields.io/badge/-Material%20UI-black?style=flat-square&logo=material-ui)
+![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb)
+![Express.js](https://img.shields.io/badge/-Express.js-black?style=flat-square&logo=express)
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 ![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)
 
