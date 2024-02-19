@@ -22,9 +22,19 @@ I am a proactive, confident and communicatively strong person always looking ahe
 
 ## Languages and Tools:
 
+![HTML5](https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5)
+![CSS3](https://img.shields.io/badge/-CSS3-black?style=flat-square&logo=css3)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
 ![Node.js](https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=node.js)
+![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-black?style=flat-square&logo=tailwind-css)
+![React Hook Form](https://img.shields.io/badge/-React%20Hook%20Form-black?style=flat-square&logo=react)
+![Yup](https://img.shields.io/badge/-Yup-black?style=flat-square&logo=yup)
+![Formik](https://img.shields.io/badge/-Formik-black?style=flat-square&logo=formik)
+![Google Cloud](https://img.shields.io/badge/-Google%20Cloud-black?style=flat-square&logo=google-cloud)
+![TypeScript](https://img.shields.io/badge/-TypeScript-black?style=flat-square&logo=typescript)
+![Axios](https://img.shields.io/badge/-Axios-black?style=flat-square&logo=axios)
+![Figma](https://img.shields.io/badge/-Figma-black?style=flat-square&logo=figma)
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 ![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)
 
