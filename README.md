@@ -20,6 +20,14 @@ I am a proactive, confident and communicatively strong person always looking ahe
 
 ![Jolanta27](https://github-readme-stats.vercel.app/api?username=Jolanta27&show_icons=true&theme=radical) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jolanta27&layout=compact)](https://github.com/Jolanta27/github-readme-stats)
 
+## Languages and Tools:
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
+![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
+![Node.js](https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=node.js)
+![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
+![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)
+
 <h3>Welcome to my Gihub profile! &#128512;<h3>
   
    :books: :books: :books: :books: :books: MY PORTFOLIO: [click me](https://jolanta27.github.io/) :books: :books: :books: :books: :books: 
