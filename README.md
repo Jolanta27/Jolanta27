@@ -44,4 +44,4 @@ I am a proactive, confident and communicatively strong person always looking ahe
 
 <h3>Welcome to my Gihub profile! &#128512;<h3>
   
-   :books: :books: :books: :books: :books: MY PORTFOLIO: [click me](https://jolanta27.github.io/) :books: :books: :books: :books: :books: 
+    
