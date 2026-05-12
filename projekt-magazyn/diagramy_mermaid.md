@@ -4,36 +4,36 @@
 
 ```mermaid
 graph TB
-    subgraph Users["👥 Użytkownicy"]
-        WKS["🏢 Warsztaty<br/>(Mechanicy)"]
-        KIR["🚗 Kierowcy"]
-        BIU["👔 Biuro<br/>(Pracownicy)"]
-        ADM["⚙️ Administratorzy"]
+    subgraph Users["Użytkownicy"]
+        WKS["Warsztaty<br/>(Mechanicy)"]
+        KIR["Kierowcy"]
+        BIU["Biuro<br/>(Pracownicy)"]
+        ADM["Administratorzy"]
     end
 
     subgraph BeExpress["BeExpress Platform"]
-        WEB["🌐 Portal Webowy<br/>(React)"]
-        MOB["📱 Aplikacja Mobilna<br/>(React Native)"]
-        ADMIN["📊 Panel Admin<br/>(React)"]
+        WEB["Portal Webowy<br/>(React)"]
+        MOB["Aplikacja Mobilna<br/>(React Native)"]
+        ADMIN["Panel Admin<br/>(React)"]
     end
 
-    subgraph API["🔌 API Gateway & Backend"]
+    subgraph API["API Gateway & Backend"]
         GW["API Gateway<br/>(Kong)"]
         MAG["Magazyn Service<br/>(Java)"]
         LOG["Logistyka Service<br/>(Node.js)"]
         PAY["Płatności Service<br/>(Node.js)"]
     end
 
-    subgraph DATA["💾 Dane"]
+    subgraph DATA["Dane"]
         PG["PostgreSQL<br/>(relacyjna)"]
         REDIS["Redis<br/>(cache)"]
         ES["Elasticsearch<br/>(wyszukiwanie)"]
     end
 
-    subgraph EXT["🔗 Integracje"]
-        PAYU["💳 PayU<br/>(płatności)"]
-        MAPS["🗺️ Google Maps<br/>(trasy)"]
-        SMS["📧 Twilio<br/>(powiadomienia)"]
+    subgraph EXT["Integracje"]
+        PAYU["PayU<br/>(płatności)"]
+        MAPS["Google Maps<br/>(trasy)"]
+        SMS["Twilio<br/>(powiadomienia)"]
     end
 
     WKS --> WEB
@@ -70,41 +70,41 @@ graph TB
 ```mermaid
 graph TB
     subgraph Presentation["WARSTWA PREZENTACJI"]
-        WEB["🌐 Portal Web<br/>React + Redux"]
-        MOB["📱 Mobile App<br/>React Native"]
-        ADMIN["📊 Admin Panel<br/>React Admin"]
+        WEB["Portal Web<br/>React + Redux"]
+        MOB["Mobile App<br/>React Native"]
+        ADMIN["Admin Panel<br/>React Admin"]
     end
 
-    subgraph Gateway["🔌 API GATEWAY"]
+    subgraph Gateway["API GATEWAY"]
         KONG["Kong API Gateway<br/>Routing, Rate Limiting, Load Balancing"]
     end
 
-    subgraph Services["🔧 MICROSERVICES (Kubernetes)"]
+    subgraph Services["MICROSERVICES (Kubernetes)"]
         MAG["Magazyn Service<br/>Java/Spring Boot<br/>- Inwentaryzacja<br/>- Rezerwacje<br/>- Skanowanie"]
         LOG["Logistyka Service<br/>Node.js/Express<br/>- Trasy<br/>- GPS Tracking<br/>- Powiadomienia"]
         PAY["Płatności Service<br/>Node.js/Express<br/>- Transakcje<br/>- Faktury<br/>- Rozliczenia"]
         USER["Użytkownicy Service<br/>Node.js/Express<br/>- Autentykacja<br/>- Autoryzacja<br/>- Profile"]
     end
 
-    subgraph Data["💾 WARSTWA DANYCH"]
+    subgraph Data["WARSTWA DANYCH"]
         PG["PostgreSQL<br/>Database<br/>- Główna baza danych<br/>- Backup daily"]
         REDIS["Redis<br/>In-Memory Cache<br/>- Session cache<br/>- Rate limit tracking"]
         ES["Elasticsearch<br/>Search Engine<br/>- Indeks części<br/>- Historia"]
         MONGO["MongoDB<br/>Document Store<br/>- Logi aplikacji<br/>- Audyt"]
     end
 
-    subgraph External["🔗 INTEGRACJE ZEWNĘTRZNE"]
-        PAYU["💳 PayU<br/>REST API + Webhooks"]
-        MAPS["🗺️ Google Maps<br/>Directions API"]
-        TWILIO["📧 Twilio<br/>SMS/Email"]
-        FIREBASE["🔔 Firebase<br/>Push Notifications"]
+    subgraph External["INTEGRACJE ZEWNĘTRZNE"]
+        PAYU["PayU<br/>REST API + Webhooks"]
+        MAPS["Google Maps<br/>Directions API"]
+        TWILIO["Twilio<br/>SMS/Email"]
+        FIREBASE["Firebase<br/>Push Notifications"]
     end
 
-    subgraph Infra["🏗️ INFRASTRUKTURA"]
+    subgraph Infra["INFRASTRUKTURA"]
         K8S["Kubernetes<br/>EKS on AWS<br/>- Auto-scaling<br/>- Load Balancing"]
-        DOCKER["🐳 Docker<br/>Container Registry<br/>ECR on AWS"]
-        MONITOR["📈 Monitoring<br/>Prometheus + Grafana<br/>+ CloudWatch"]
-        LOGGING["📝 Logging<br/>ELK Stack<br/>Elasticsearch + Kibana"]
+        DOCKER["Docker<br/>Container Registry<br/>ECR on AWS"]
+        MONITOR["Monitoring<br/>Prometheus + Grafana<br/>+ CloudWatch"]
+        LOGGING["Logging<br/>ELK Stack<br/>Elasticsearch + Kibana"]
     end
 
     WEB --> KONG
@@ -149,14 +149,14 @@ graph TB
 
 ```mermaid
 sequenceDiagram
-    participant Warsztat as 🏢 Warsztat
-    participant Portal as 🌐 Portal
-    participant Gateway as 🔌 Gateway
-    participant Magazyn as 📦 Magazyn Service
-    participant Logistyka as 🚚 Logistyka Service
-    participant DB as 💾 PostgreSQL
-    participant Cache as ⚡ Redis
-    participant SMS as 📧 SMS Service
+    participant Warsztat as Warsztat
+    participant Portal as Portal
+    participant Gateway as Gateway
+    participant Magazyn as Magazyn Service
+    participant Logistyka as Logistyka Service
+    participant DB as PostgreSQL
+    participant Cache as Redis
+    participant SMS as SMS Service
 
     Warsztat->>Portal: 1. Wpisuje numer VIN
     Portal->>Gateway: 2. GET /api/search/vin?vin=ABC123
@@ -180,10 +180,10 @@ sequenceDiagram
     Magazyn->>Cache: 19. Invalidate cache
     Cache-->>Magazyn: 20. OK
     Logistyka->>SMS: 21. Wyślij SMS potwierdzenie
-    SMS-->>Warsztat: 22. ✓ Zarezerwowano (ETA: 24h)
+    SMS-->>Warsztat: 22. Zarezerwowano (ETA: 24h)
     Logistyka-->>Gateway: 23. JSON response
     Gateway-->>Portal: 24. Pokaż potwierdzenie
-    Portal-->>Warsztat: 25. ✓ Zarezerwowano!
+    Portal-->>Warsztat: 25. Zarezerwowano!
 ```
 
 ---
@@ -192,13 +192,13 @@ sequenceDiagram
 
 ```mermaid
 sequenceDiagram
-    participant Magazynier as 👨‍🔧 Magazynier
-    participant Scanner as 📱 Scanner QR
-    participant API as 🔌 API Gateway
-    participant Magazyn as 📦 Magazyn Service
-    participant DB as 💾 Database
-    participant Cache as ⚡ Redis
-    participant Printer as 🖨️ Drukarka
+    participant Magazynier as Magazynier
+    participant Scanner as Scanner QR
+    participant API as API Gateway
+    participant Magazyn as Magazyn Service
+    participant DB as Database
+    participant Cache as Redis
+    participant Printer as Drukarka
 
     Magazynier->>Scanner: 1. Skanuje barcode części
     Scanner->>API: 2. POST /api/warehouse/scan
@@ -211,8 +211,8 @@ sequenceDiagram
     Cache-->>Magazyn: 9. OK
     Magazyn->>API: 10. JSON OK response
     API->>Printer: 11. Wydrukuj etykietę wysyłkową
-    Printer-->>Magazynier: 12. 🖨️ Etykieta gotowa
-    Magazyn-->>Scanner: 13. Beep ✓ (sukces)
+    Printer-->>Magazynier: 12. Etykieta gotowa
+    Magazyn-->>Scanner: 13. Beep (sukces)
 
     Magazynier->>Magazynier: 14. Pakuje część do skrzynki
     Magazynier->>Magazynier: 15. Naklejam etykietę
@@ -225,13 +225,13 @@ sequenceDiagram
 
 ```mermaid
 sequenceDiagram
-    participant Kierowca as 🚗 Kierowca
-    participant Mobile as 📱 Aplikacja Mobilna
-    participant API as 🔌 API Gateway
-    participant Logistyka as 🚚 Logistyka Service
-    participant Cache as ⚡ Redis Cache
-    participant WebSocket as 🔌 WebSocket Server
-    participant Warsztat as 🏢 Warsztat (Portal)
+    participant Kierowca as Kierowca
+    participant Mobile as Aplikacja Mobilna
+    participant API as API Gateway
+    participant Logistyka as Logistyka Service
+    participant Cache as Redis Cache
+    participant WebSocket as WebSocket Server
+    participant Warsztat as Warsztat (Portal)
 
     Kierowca->>Mobile: 1. Aplikacja uruchomiona (background)
     Mobile->>Mobile: 2. GPS lokalizacja co 30 sec
@@ -242,7 +242,7 @@ sequenceDiagram
     Logistyka->>WebSocket: 7. Emit LOCATION_UPDATE
     WebSocket->>Warsztat: 8. WebSocket push
     Warsztat->>Warsztat: 9. Aktualizuj mapę w real-time
-    Warsztat-->>Warsztat: 10. 📍 Kierowca Marek<br/>2 km stąd, ETA: 15 min
+    Warsztat-->>Warsztat: 10. Kierowca Marek 2 km stąd, ETA: 15 min
 
     Note over Kierowca,Warsztat: Co 30 sekund powtarza się proces
 ```
@@ -253,28 +253,28 @@ sequenceDiagram
 
 ```mermaid
 graph LR
-    A["👨‍💻 Developer<br/>commit"] --> B["GitHub<br/>Repository"]
-    B --> C["🔄 GitHub Actions<br/>Pipeline"]
+    A["Developer<br/>commit"] --> B["GitHub<br/>Repository"]
+    B --> C["GitHub Actions<br/>Pipeline"]
     
-    C --> D["🧪 Run Tests<br/>Jest, Mocha"]
-    D -->|Pass| E["✅ Code Quality<br/>SonarQube"]
-    D -->|Fail| Z["❌ Block Merge"]
+    C --> D["Run Tests<br/>Jest, Mocha"]
+    D -->|Pass| E["Code Quality<br/>SonarQube"]
+    D -->|Fail| Z["Block Merge"]
     
-    E --> F["🔒 Security Scan<br/>Snyk, OWASP"]
-    F --> G["🐳 Build Docker Images"]
+    E --> F["Security Scan<br/>Snyk, OWASP"]
+    F --> G["Build Docker Images"]
     
-    G --> H["📦 Push to ECR<br/>AWS Container Registry"]
+    G --> H["Push to ECR<br/>AWS Container Registry"]
     
-    H --> I["🚀 Deploy to Staging<br/>Kubernetes"]
-    I --> J["🧪 Integration Tests"]
+    H --> I["Deploy to Staging<br/>Kubernetes"]
+    I --> J["Integration Tests"]
     J -->|Fail| Z
     
-    J -->|Pass| K["👤 Manual Approval<br/>Code Review"]
-    K -->|Approved| L["🚀 Deploy to Production"]
+    J -->|Pass| K["Manual Approval<br/>Code Review"]
+    K -->|Approved| L["Deploy to Production"]
     K -->|Rejected| Z
     
-    L --> M["✅ Health Checks<br/>+ Monitoring"]
-    M --> N["📊 Prometheus +<br/>Grafana"]
+    L --> M["Health Checks<br/>+ Monitoring"]
+    M --> N["Prometheus +<br/>Grafana"]
     
     style Z fill:#ff6b6b
     style N fill:#51cf66
@@ -287,25 +287,25 @@ graph LR
 
 ```mermaid
 graph TB
-    subgraph Before["❌ PRZED - Bottleneck"]
-        LOAD1["📊 Ruch: 10k req/s"]
-        POD1["📦 Backend Pod 1<br/>CPU: 95% 🔴<br/>Memory: 85% 🔴"]
+    subgraph Before["PRZED - Bottleneck"]
+        LOAD1["Ruch: 10k req/s"]
+        POD1["Backend Pod 1<br/>CPU: 95% / Memory: 85%"]
         LOAD1 --> POD1
     end
 
-    subgraph After["✅ PO - Auto-scaling"]
-        LOAD2["📊 Ruch: 10k req/s"]
-        LB["⚖️ Load Balancer<br/>Round Robin"]
-        POD2["📦 Pod 1<br/>CPU: 60% 🟢"]
-        POD3["📦 Pod 2<br/>CPU: 58% 🟢"]
-        POD4["📦 Pod 3<br/>CPU: 62% 🟢"]
+    subgraph After["PO - Auto-scaling"]
+        LOAD2["Ruch: 10k req/s"]
+        LB["Load Balancer<br/>Round Robin"]
+        POD2["Pod 1<br/>CPU: 60%"]
+        POD3["Pod 2<br/>CPU: 58%"]
+        POD4["Pod 3<br/>CPU: 62%"]
         LOAD2 --> LB
         LB --> POD2
         LB --> POD3
         LB --> POD4
     end
 
-    subgraph HPA["🤖 Kubernetes HPA<br/>Min: 2, Max: 10<br/>Target CPU: 70%"]
+    subgraph HPA["Kubernetes HPA<br/>Min: 2, Max: 10<br/>Target CPU: 70%"]
     end
 
     Before -.->|Trigger| HPA
@@ -322,16 +322,16 @@ graph TB
 
 ```mermaid
 graph TB
-    CLIENT["👤 Klient"]
+    CLIENT["Klient"]
     
-    L1["🔐 Layer 1: HTTPS/TLS<br/>Encryption in Transit"]
-    L2["🛡️ Layer 2: WAF + Rate Limiting<br/>DDoS Protection"]
-    L3["🔑 Layer 3: Auth & RBAC<br/>JWT, OAuth2, 2FA"]
-    L4["⚙️ Layer 4: Business Logic<br/>Input Validation"]
-    L5["🔒 Layer 5: Encryption at Rest<br/>AES-256, bcrypt"]
-    L6["📝 Layer 6: Auditing<br/>Centralized Logging (ELK)"]
+    L1["Layer 1: HTTPS/TLS<br/>Encryption in Transit"]
+    L2["Layer 2: WAF + Rate Limiting<br/>DDoS Protection"]
+    L3["Layer 3: Auth & RBAC<br/>JWT, OAuth2, 2FA"]
+    L4["Layer 4: Business Logic<br/>Input Validation"]
+    L5["Layer 5: Encryption at Rest<br/>AES-256, bcrypt"]
+    L6["Layer 6: Auditing<br/>Centralized Logging (ELK)"]
     
-    DB[("💾 PostgreSQL<br/>Encrypted")]
+    DB[("PostgreSQL<br/>Encrypted")]
     
     CLIENT --> L1
     L1 --> L2
@@ -356,17 +356,17 @@ graph TB
 
 ```mermaid
 graph TB
-    BeExpress["🎯 BeExpress<br/>Integracja Service"]
+    BeExpress["BeExpress<br/>Integracja Service"]
     
-    PAYU["💳 PayU<br/>- Płatności online<br/>- Faktury<br/>- Webhooks"]
+    PAYU["PayU<br/>- Płatności online<br/>- Faktury<br/>- Webhooks"]
     
-    MAPS["🗺️ Google Maps<br/>- Planowanie tras<br/>- ETA<br/>- Geolokacja"]
+    MAPS["Google Maps<br/>- Planowanie tras<br/>- ETA<br/>- Geolokacja"]
     
-    TWILIO["📧 Twilio<br/>- SMS<br/>- Email<br/>- Voice"]
+    TWILIO["Twilio<br/>- SMS<br/>- Email<br/>- Voice"]
     
-    FIREBASE["🔔 Firebase<br/>- Push notifications<br/>- Analytics"]
+    FIREBASE["Firebase<br/>- Push notifications<br/>- Analytics"]
     
-    BANK["🏦 Bank API<br/>- BLIK<br/>- OAuth2"]
+    BANK["Bank API<br/>- BLIK<br/>- OAuth2"]
     
     BeExpress --> PAYU
     BeExpress --> MAPS
@@ -385,11 +385,11 @@ graph TB
 
 ```mermaid
 graph LR
-    DEV["💻 DEVELOPMENT<br/>Laptop/Docker Compose<br/>localhost:3000"]
+    DEV["DEVELOPMENT<br/>Laptop/Docker Compose<br/>localhost:3000"]
     
-    STAGING["🧪 STAGING<br/>AWS EC2<br/>https://staging.beexpress.pl<br/>Production-like"]
+    STAGING["STAGING<br/>AWS EC2<br/>https://staging.beexpress.pl<br/>Production-like"]
     
-    PROD["🚀 PRODUCTION<br/>AWS EKS<br/>https://app.beexpress.pl<br/>Multi-region"]
+    PROD["PRODUCTION<br/>AWS EKS<br/>https://app.beexpress.pl<br/>Multi-region"]
     
     DEV -->|Test Code| STAGING
     STAGING -->|Test Integrations| PROD
